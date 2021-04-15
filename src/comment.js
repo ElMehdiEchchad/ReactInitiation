@@ -14,7 +14,7 @@ const Comment = (props) => {
                 <div className="metadata">
                   <span className="date">{props.date}</span>
                 </div>
-                <div className="text">{props.message}</div>
+                <div className="text">{props.content}</div>
             </div>
         </div>
     );
